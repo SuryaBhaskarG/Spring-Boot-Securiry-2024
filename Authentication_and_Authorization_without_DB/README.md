@@ -1,2 +1,0 @@
-# Security Spring Boot Authentication and Authorization , username and password are configured in programm itself
-this project explains about spring boot security with  with latest version 3.2.1 and java 20 
