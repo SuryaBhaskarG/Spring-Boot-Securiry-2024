@@ -41,6 +41,7 @@ public class SecurityConfig
                         .requestMatchers("/products/**")
                         .authenticated()
                 )
+                .authenticationProvider(authenticationProvider())
                 .httpBasic(Customizer.withDefaults()).build();
     }
 
